@@ -5,8 +5,8 @@ const main_title = document.getElementById("page-title");
 main_title.innerHTML = "Esquadrão Classe A";
 
 const sub_paragraph = document.getElementById("second-paragraph");
-sub_paragraph.innerHTML = "Criatividade goes BRRRRRR";
+sub_paragraph.innerHTML = "E mudei aqui também";
 
 
 const sub_title = document.getElementById("subtitle");
-sub_title.innerHTML = "Mudei aqui também"
+sub_title.innerHTML = "Eu estive aqui!"
