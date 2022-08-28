@@ -8,7 +8,5 @@ const sub_paragraph = document.getElementById("second-paragraph");
 sub_paragraph.innerHTML = "Criatividade goes BRRRRRR";
 
 
-function sumNum (num1, num2) {
-    return num1 + num2;
-}
-console.log(sumNum(1, 2))
+const sub_title = document.getElementById("subtitle");
+sub_title.innerHTML = "Mudei aqui também"
