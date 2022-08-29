@@ -1,5 +1,6 @@
 // Vamos aos exercícios:
 let html_body = document.querySelector('body')
+
 // 1. 🚀 Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;
 let novo_h1 = document.createElement('h1');
 novo_h1.innerText = 'Exercício 5.2 - JavaScript DOM';
@@ -7,11 +8,14 @@ html_body.append(novo_h1);
 
 // 2. 🚀 Adicione a tag main com a classe main-content como filho da tag body;
 let novo_main = document.createElement('main');
-novo_main.className = 'main-content'
+novo_main.className = 'main-content';
 html_body.append(novo_main);
 
 // 3. 🚀 Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
-
+let html_main = document.querySelector('main')
+let novo_section = document.createElement('section');
+novo_section.className = 'center-content';
+html_main.append(novo_section);
 
 // 4. 🚀 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
 
