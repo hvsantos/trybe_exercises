@@ -38,33 +38,39 @@ function addTextToTech(event){
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 // 4.1. Que tal redirecionar para seu portfólio?
-myWebpage.addEventListener('click', redirectToLinkedIn);
+myWebpage.addEventListener('dblclick', redirectToLinkedIn);
 
-let clickRedirect = 0;
-function redirectToLinkedIn(){
-    clickRedirect += 1;
-    console.log(clickRedirect)
-    if (clickRedirect === 2) {
-        console.log('entrei');
-        window.location.href = 'https://github.com/hvsantos/';
-        clickRedirect = 0;
-    }
+function redirectToLinkedIn() {
+    window.location.href = 'https://github.com/hvsantos/';
 }
 
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+myWebpage.addEventListener('mouseover', changeColorAlternative);
+
+function changeColorAlternative(event) {
+    event.target.style.backgroundColor = 'green';
+}
+
+//
+
+myWebpage.addEventListener('mouseleave', changeColorDefault);
+
+function changeColorDefault(event) {
+    event.target.style.backgroundColor = '#333333';
+}
 
 // Segue abaixo um exemplo do uso de event.target:
 
 
-function resetText(event) {
+// function resetText(event) {
   // O Event é passado como um parâmetro para a função.
-  event.target.innerText = 'Opção reiniciada';
+//   event.target.innerText = 'Opção reiniciada';
   // O event possui várias propriedades, porém a mais usada é o event.target,
   // que retorna o objeto que disparou o evento.
-}
+// }
 
-firstLi.addEventListener('dblclick', resetText);
+// firstLi.addEventListener('dblclick', resetText);
 
 // Não precisa passar o parâmetro dentro da callback resetText. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
