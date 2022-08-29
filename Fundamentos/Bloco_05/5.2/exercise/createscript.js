@@ -12,32 +12,44 @@ main_content.className = 'main-content';
 html_body.append(main_content);
 
 // 3. 🚀 Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;
-let html_main = document.querySelector('.main-content')
 let section_center_content = document.createElement('section');
 section_center_content.className = 'center-content';
-html_main.append(section_center_content);
+main_content.append(section_center_content);
 
 // 4. 🚀 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
 let novo_p = document.createElement('p');
-let html_section_center = document.querySelector('.center-content')
 novo_p.innerText = 'Eu sou um paragrafo';
-html_section_center.append(novo_p)
+section_center_content.append(novo_p)
 
 
 // 5. 🚀 Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
 let section_left_content = document.createElement('section');
 section_left_content.className = 'left-content';
-html_main.append(section_left_content);
+main_content.append(section_left_content);
 
 // 6. 🚀 Adicione a tag section com a classe right-content como filho da tag main criada no passo 2;
 let section_right_content = document.createElement('section');
 section_right_content.className = 'right-content';
-html_main.append(section_right_content);
+main_content.append(section_right_content);
 
 // 7. 🚀 Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do section criado no passo 5;
-
+let small_image = document.createElement('img');
+small_image.src = 'https://picsum.photos/200';
+small_image.className = 'small-image';
+section_left_content.append(small_image);
 
 // 8. 🚀 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+let list_ol = document.createElement('ol');
+section_right_content.append(list_ol);
 
+for (let i = 1; i <= 10; i += 1) {
+    let list_li = document.createElement('li');
+    list_li.className = `item-lista-${i+1}`
+    list_li.innerText = i;
+    list_ol.append(list_li);
+}
 
 // 9. 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+for (let i = 1; i <= 3; i+= 1) {
+    let 
+}
