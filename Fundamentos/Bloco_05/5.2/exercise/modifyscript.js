@@ -3,8 +3,7 @@
 // 🚀 Adicione a classe title na tag h1 criada;
 novo_h1.className = 'title';
 
-// 🚀 Adicione a classe description nas 3 tags h3 criadas;
-
+// 🚀 Adicione a classe description nas 3 tags h3 criadas; (Feito junto à 9)
 
 // 🚀 Remova a section criado no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
 

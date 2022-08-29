@@ -51,5 +51,7 @@ for (let i = 1; i <= 10; i += 1) {
 
 // 9. 🚀 Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
 for (let i = 1; i <= 3; i+= 1) {
-    let 
+    let h3_title = document.createElement('h3');
+    h3_title.className = 'description';
+    main_content.append(h3_title);
 }
