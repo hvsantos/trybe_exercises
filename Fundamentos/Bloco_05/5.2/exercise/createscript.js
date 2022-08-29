@@ -44,7 +44,7 @@ section_right_content.append(list_ol);
 
 for (let i = 1; i <= 10; i += 1) {
     let list_li = document.createElement('li');
-    list_li.className = `item-lista-${i+1}`
+    list_li.className = `item-lista-${i}`
     list_li.innerText = i;
     list_ol.append(list_li);
 }
