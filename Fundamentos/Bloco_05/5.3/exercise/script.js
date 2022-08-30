@@ -133,3 +133,46 @@ function markfridays(fridays, helper) {
 // 🚀 Exercício 6:
 
 // Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
+
+document.querySelector("#days").addEventListener("mouseover", waitForOver);
+document.querySelector("#days").addEventListener("mouseout", waitForOut);
+
+function waitForOver(event) {
+	let list = event.target.className;
+	if (list.includes("day")) {
+		event.target.style.fontSize = "30px";
+	}
+}
+
+function waitForOut(event) {
+	let list = event.target.className;
+	if (list.includes("day")) {
+		event.target.style.fontSize = "20px";
+	}
+}
+
+// 🚀 Exercício 7:
+
+// Implemente uma função que adicione uma tarefa personalizada ao calendário. A função deve receber como parâmetro a string com o nome da tarefa (ex: "cozinhar") e criar dinamicamente um elemento com a tag <span> contendo a tarefa.
+
+document.querySelector("#btn-add").addEventListener("click", createTask);
+
+function createTask() {
+	let input = document.querySelector("#task-input").value;
+	document.querySelector("#task-input").value = "";
+	if (input === "") {
+		return alert("Insira um nome para a tarefa");
+	}
+	addToTaskList(input);
+}
+
+function addToTaskList(input) {
+	let nova_task = document.createElement("span");
+	let line_break = document.createElement("br");
+	nova_task.innerText = input;
+	document.querySelector(".my-tasks").append(nova_task);
+	document.querySelector(".my-tasks").append(line_break);
+}
+
+// 🚀 Exercício 8:
+// Implemente uma função que adicione uma legenda com cor para a tarefa.
