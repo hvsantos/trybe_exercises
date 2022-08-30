@@ -167,24 +167,26 @@ function createTask() {
 }
 
 function addToTaskList(input) {
-	let nova_task = document.createElement("span");
-	let line_break = document.createElement("br");
+	let nova_task = document.createElement("h4");
 	nova_task.innerText = input;
 	nova_task.className = "to-do-task";
 	document.querySelector(".my-tasks").append(nova_task);
-	document.querySelector(".my-tasks").append(line_break);
 }
 
 // 🚀 Exercício 8:
 // Implemente uma função que adicione uma legenda com cor para a tarefa.
 document.querySelector(".my-tasks").addEventListener("click", taskInput);
 
+let save_color = [];
+let index_element = 0;
+
 function taskInput(event) {
 	let todo_list = event.target.className;
-	console.log(todo_list);
 	if (todo_list.includes("to-do-task")) {
 		let color = prompt("Color for Task");
 		event.target.style.backgroundColor = color;
+		save_color.push(`{index: ${index_element}}, color: ${color}`);
+		index_element += 1;
 	}
 }
 
@@ -199,3 +201,15 @@ function taskInput(event) {
 // 		document.querySelector(".my-tasks").append(nova_legenda);
 // 	}
 // }
+
+// 🚀 Exercício 9:
+// Implemente uma função que selecione uma tarefa.
+
+// 🚀 Exercício 10:
+// Implemente uma função que atribua a cor da tarefa ao dia do calendário.
+
+document.querySelector("#days").addEventListener("click", addTaskToDay);
+
+function addTaskToDay(event) {
+	console.log(save_color);
+}
