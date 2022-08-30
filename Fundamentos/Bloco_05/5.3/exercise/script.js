@@ -25,10 +25,6 @@ let decemberDaysList = [
 	29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
 	21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,
 ];
-// Escreva seu código abaixo.
-
-// 🚀 Exercício 1:
-// Crie um calendário dinamicamente.
 
 let day_container = document.querySelector("#days");
 decemberDaysList.forEach(dayCreate);
@@ -51,9 +47,6 @@ function classNameDay(day) {
 	return dayClass;
 }
 
-// 🚀 Exercício 2:
-// Implemente uma função que crie dinamicamente um botão com o nome "Feriados".
-
 function createHolidayButton(name) {
 	let holidayButton = document.createElement("button");
 	holidayButton.id = "btn-holiday";
@@ -63,8 +56,6 @@ function createHolidayButton(name) {
 
 createHolidayButton("Feriados");
 
-// 🚀 Exercício 3:
-// Implemente uma função que muda a cor de fundo dos dias que possuem a classe "holiday".
 let holidayButtonHelper = true;
 
 document.querySelector("#btn-holiday").addEventListener("click", callHoliday);
@@ -90,9 +81,6 @@ function markHolidays(holidays, helper) {
 	}
 }
 
-// 🚀 Exercício 4:
-// Implemente uma função que crie dinamicamente um botão com o nome "Sexta-feira". Sua função deve receber como parâmetro a string "Sexta-feira".
-
 function createFridayButton(name) {
 	let fridayButton = document.createElement("button");
 	fridayButton.id = "btn-friday";
@@ -102,8 +90,7 @@ function createFridayButton(name) {
 
 createFridayButton("Sexta-feira");
 
-// 🚀 Exercício 5:
-// Implemente uma função que modifica o texto exibido nos dias que são Sexta-feira. Adicione ao botão "Sexta-feira" um evento de "click" e modifique o texto a ser exibido nos dias que são sextas-feiras.
+//
 
 let fridayButtonHelper = true;
 
@@ -130,10 +117,6 @@ function markfridays(fridays, helper) {
 	}
 }
 
-// 🚀 Exercício 6:
-
-// Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
-
 document.querySelector("#days").addEventListener("mouseover", waitForOver);
 document.querySelector("#days").addEventListener("mouseout", waitForOut);
 
@@ -150,10 +133,6 @@ function waitForOut(event) {
 		event.target.style.fontSize = "20px";
 	}
 }
-
-// 🚀 Exercício 7:
-
-// Implemente uma função que adicione uma tarefa personalizada ao calendário. A função deve receber como parâmetro a string com o nome da tarefa (ex: "cozinhar") e criar dinamicamente um elemento com a tag <span> contendo a tarefa.
 
 document.querySelector("#btn-add").addEventListener("click", createTask);
 
@@ -173,8 +152,6 @@ function addToTaskList(input) {
 	document.querySelector(".my-tasks").append(nova_task);
 }
 
-// 🚀 Exercício 8:
-// Implemente uma função que adicione uma legenda com cor para a tarefa.
 document.querySelector(".my-tasks").addEventListener("click", taskInput);
 
 let save_color = [];
@@ -201,12 +178,6 @@ function taskInput(event) {
 // 		document.querySelector(".my-tasks").append(nova_legenda);
 // 	}
 // }
-
-// 🚀 Exercício 9:
-// Implemente uma função que selecione uma tarefa.
-
-// 🚀 Exercício 10:
-// Implemente uma função que atribua a cor da tarefa ao dia do calendário.
 
 document.querySelector("#days").addEventListener("click", addTaskToDay);
 
