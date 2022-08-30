@@ -170,9 +170,32 @@ function addToTaskList(input) {
 	let nova_task = document.createElement("span");
 	let line_break = document.createElement("br");
 	nova_task.innerText = input;
+	nova_task.className = "to-do-task";
 	document.querySelector(".my-tasks").append(nova_task);
 	document.querySelector(".my-tasks").append(line_break);
 }
 
 // 🚀 Exercício 8:
 // Implemente uma função que adicione uma legenda com cor para a tarefa.
+document.querySelector(".my-tasks").addEventListener("click", taskInput);
+
+function taskInput(event) {
+	let todo_list = event.target.className;
+	console.log(todo_list);
+	if (todo_list.includes("to-do-task")) {
+		let color = prompt("Color for Task");
+		event.target.style.backgroundColor = color;
+	}
+}
+
+// function divColorida(event) {
+// 	let todo_list = event.target.className;
+// 	console.log(todo_list);
+// 	if (todo_list.includes("to-do-task")) {
+// 		let color = prompt("Color for Task");
+// 		let nova_legenda = document.createElement("div");
+// 		nova_legenda.style.backgroundColor = color;
+// 		nova_legenda.className = "task";
+// 		document.querySelector(".my-tasks").append(nova_legenda);
+// 	}
+// }
