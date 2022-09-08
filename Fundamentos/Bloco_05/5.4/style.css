@@ -1,0 +1,25 @@
+header {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 15px;
+  background-color: #b8f488;
+  padding: 15px 0;
+}
+
+.change-container {
+  display: flex;
+  gap: 10px;
+}
+
+.change-container div {
+  padding: 3px;
+  border: 1px solid black;
+  background-color: white;
+  min-width: 30px;
+}
