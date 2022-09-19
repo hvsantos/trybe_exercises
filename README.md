@@ -117,124 +117,122 @@ Contém todas as atividades desenvolvidas por __[Henrique Vilela](https://www.li
 
 ## Módulo 3: Desenvolvimento Back-end :hourglass_flowing_sand:
 
-### Section 1: Introdução à SQL
-- [ ] 1.1 - Introdução - Back-end
-- [ ] 1.1 - Introdução - Bancos de dados relacionais
-- [ ] 1.1 - Banco de dados SQL
-- [ ] 1.2 - Encontrando dados em um banco de dados
-- [ ] 1.3 - Filtrando dados de forma específica
-- [ ] 1.4 - Manipulando tabelas
-- [ ] 1.5 - Projeto - All For One
+### Section 1: Docker: Utilizando Containers
+- [ ] 1.1 - Utilizando Containers - Docker
+- [ ] 1.2 - Manipulando Imagens no Docker
+- [ ] 1.3 - Orquestrando Container com Docker Compose
+- [ ] 1.4 - Projeto - Docker Todo-List
 
-### Section 2: Funções SQL, Joins e Subqueries
-- [ ] 2.1 - Funções mais usadas no SQL
-- [ ] 2.2 - Descomplicando JOINs e UNIONs
-- [ ] 2.3 - Stored Routines & Subqueries
-- [ ] 2.4 - Projeto - Vocabulary Booster
+### Section 2: Introdução à SQL
+- [ ] 2.1 - Banco de dados SQL
+- [ ] 2.2 - Encontrando dados em um banco de dados
+- [ ] 2.3 - Filtrando dados de forma específica
+- [ ] 2.4 - Manipulando tabelas
+- [ ] 2.5 - Projeto - All For One
 
-### Section 3: Normalização e Modelagem de Banco de Dados
-- [ ] 3.1 - Transformando ideias em um modelo de banco de dados
-- [ ] 3.2 - Normalização, Formas Normais e Dumps
-- [ ] 3.3 - Transformando ideias em um modelo de banco de dados - Parte 2
-- [ ] 3.4 - Projeto - One For All
+### Section 3: Funções SQL, Joins e Normalização
+- [ ] 3.1 - Funções mais usadas no SQL
+- [ ] 3.2 - Descomplicando JOINs
+- [ ] 3.3 - Transformando ideiais em um modelo de banco de dados
+- [ ] 3.4 - Aula ao Vivo + Projeto - All For One
 
-### Section 4: Introdução ao MongoDB
-- [ ] 4.1 - Introdução - NoSQL
-- [ ] 4.1 - MongoDB - Introdução
-- [ ] 4.2 - Filter Operators
-- [ ] 4.3 - Projeto - Data Flights
+### Section 4: Introdução ao desenvolvimento Web com Node.js
+- [ ] 4.1 - Runtime Assíncrono
+- [ ] 4.2 - Node.js: API REST com Express
+- [ ] 4.3 - Node.js: Testes de Integração
+- [ ] 4.4 - Express: Middlewares
+- [ ] 4.5 - Node.js: Express e Mysql
+- [ ] 4.6 - Atividades + Projeto - Talker Manager
 
-### Section 5: MongoDB: Updates Simples e Complexos
-- [ ] 5.1 - Updates Simples
-- [ ] 5.2 - Updates Complexos - Arrays - Parte 1
-- [ ] 5.3 - Updates Complexos - Arrays - Parte 2
-- [ ] 5.4 - Projeto - Commerce
+### Section 5: Arquitetura de Software: Model, Service e Controller
+- [ ] 5.1 - Arquitetura de Software: Camada Model
+- [ ] 5.2 - Arquitetura de Software: Camada Service
+- [ ] 5.3 - Arquitetura de Software: Camada Controller
+- [ ] 5.4 - Projeto - Store Manager
 
-### Section 6: MongoDB: Aggregation Framework
-- [ ] 6.1 - Aggregation Framework - Parte 1
-- [ ] 6.2 - Aggregation Framework - Parte 2
-- [ ] 6.3 - Projeto - Aggregations
+### Section 6: Node.js: ORM e Autenticação
+- [ ] 6.1 - ORM - Interface da aplicação com o banco de dados
+- [ ] 6.2 - ORM - Associations 1:1 e 1:N
+- [ ] 6.3 - ORM - Associations N:N e Transactions
+- [ ] 6.4 - JWT - (JSON Web Token)
+- [ ] 6.5 - Projeto - API de Blogs
 
-### Section 7: Introdução ao desenvolvimento Web com NodeJS
-- [ ] 7.1 - Intro - NodeJS
-- [ ] 7.1 - NodeJS - Introdução
-- [ ] 7.2 - NodeJS - Fluxo Assíncrono
-- [ ] 7.3 - Testes com NodeJS
-- [ ] 7.4 - Express: HTTP com Node.js
-- [ ] 7.5 - Praticando Express
-- [ ] 7.6 - Projeto - Talker manager
+### Section 7: Deployment
+- [ ] 7.1 - Infraestrutura - Deploy com Heroku
+- [ ] 7.2 - Deploy Docker & Heroku
+- [ ] 7.3 - Projeto - Stranger Things
 
-### Section 8: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
-- [ ] 8.1 - Introdução - Arquitetura de Software
-- [ ] 8.1 - Arquitetura de Software - Camada de Model
-- [ ] 8.2 - Arquitetura de Software - Camada de Controller e Service
-- [ ] 8.3 - Arquitetura Web - Rest e Restful
-- [ ] 8.4 - Arquitetura de Software - Testando as Camadas
-- [ ] 8.5 - Projeto - Store Manager
+### Section 8: TypeScript
+- [ ] 8.1 - Introdução ao TypeScript
+- [ ] 8.2 - Tipagem Estática e Generics
+- [ ] 8.3 - Express com TypeScript
+- [ ] 8.4 - Projeto - Trybesmith
 
-### Section 9: Autenticação e Upload de Arquivos
-- [ ] 9.1 - NodeJS - JWT - (JSON Web Token)
-- [ ] 9.2 - NodeJS - Upload de arquivos com Multer
-- [ ] 9.3 - NodeJS - Testando APIs com Testes de Integração
-- [ ] 9.4 - Projeto - Cookmaster
+### Section 9: Programação Orientada a Objetos (POO) e SOLID
+- [ ] 8.1 - Introdução à Orientação a Objetos
+- [ ] 8.2 - Herança e Interfaces
+- [ ] 8.3 - Polimorfismo
+- [ ] 8.4 - SOLID - Introdução e Princípios S, O e D
+- [ ] 8.5 - Princípios L e I
+- [ ] 8.6 - Projeto - Trybers and Dragons
 
-### Section 10: Deployment
-- [ ] 10.1 - Introdução - Deploy
-- [ ] 10.1 - Infraestrutura - Deploy com Heroku
-- [ ] 10.2 - Deploy - Gerenciadores de Processos
-- [ ] 10.3 - Projeto - Stranger Things
+### Section 10: Projeto - TFC - Trybe Futebol Clube
+- [ ] 10.1 - Projeto -  TFC - Trybe Futebol Clube
 
-### Section 11: Arquitetura: SOLID e ORM
-- [ ] 11.1 - Arquitetura - Princípios SOLID
-- [ ] 11.2 - ORM - Interface da aplicação com o banco de dados
-- [ ] 11.3 - ORM - Associations
-- [ ] 11.4 - Boas práticas na escrita de testes
-- [ ] 11.5 - Projeto - API de Blogs
+### Section 11: Introdução ao MongoDB
+- [ ] 11.1 - MongoDB - Introdução
+- [ ] 11.2 - Filter Operators
+- [ ] 11.3 - Operadores de consulta
+- [ ] 11.4 - Updates Simples
+- [ ] 11.5 - Update Complexos - Arrays
+- [ ] 11.5 - Projeto - Commerce
 
-### Section 12: Sockets
-- [ ] 12.1 - Sockets - TCP/UDP & NET
-- [ ] 12.2 - Sockets - Socket.io
-- [ ] 12.3 - Projeto - Webchat
+### Section 12: MongoDB com Node.js e POO
+- [ ] 12.1 - Mongoose e arquitetura MSC (Camada Model)
+- [ ] 12.2 - Mongoose e arquitetura MSC (Camada Service e Controller)
+- [ ] 12.3 - Projeto - Car Shop
 
-### Section 13: Projeto Trybeer II
-- [ ] 13.1 - Projeto - Trybeer v2
+### Section 13: Projeto - App de Delivery
+- [ ] 13.1 - Projeto - App de Delivery
+
+### Section 14: MasterClass - VPS, CI/CD
+- [ ] 14.1 - VPS
+- [ ] 14.2 - Dia 2
 
 ## Módulo 4: Ciência da Computação :hourglass_flowing_sand:
 
-### Section 1: Arquitetura de Computadores e Redes
-- [ ] 1.1 - Introdução - Ciência da Computação
-- [ ] 1.2 - Arquitetura de Computadores
-- [ ] 1.3 - Arquitetura de redes
-- [ ] 1.4 - Redes de computadores, ferramentas e segurança
-- [ ] 1.5 - Projeto - Explorando os protocolos
+### Section 1: Introdução à Python
+- [ ] 1.1 - Aprendendo Python
+- [ ] 1.2 - Entrada e Saída de dados
+- [ ] 1.3 - Testes
+- [ ] 1.4 - Projeto - Job Insights
 
-### Section 2: Introdução à Python e Raspagem de Dados da Web
-- [ ] 2.1 - Aprendendo Python
-- [ ] 2.2 - Entrada e Saída de dados
-- [ ] 2.3 - Raspagem de Dados
-- [ ] 2.4 - Testes
-- [ ] 2.5 - Projeto - Tech news
+### Section 2: Padrões de Projeto
+- [ ] 2.1 - P.O.O em Python
+- [ ] 2.2 - Padrões - Iterator, Adapter, Strategy
+- [ ] 2.3 - Padrões - Decorator, Observer, Factory
+- [ ] 2.4 - Projeto - Relatórios de Estoque
 
-### Section 3: Programação Orientada a Objetos e Padrões de Projeto
-- [ ] 3.1 - Introdução à programação orientada a objetos
-- [ ] 3.2 - Herança, Composição e Interfaces
-- [ ] 3.3 - Padrões de projeto
-- [ ] 3.4 - Projeto - Relatórios de Estoque
+### Section 3: Redes e Raspagem de Dados
+- [ ] 3.1 - Arquitetura de redes
+- [ ] 3.2 - Raspagem de Dados
+- [ ] 3.3 - Outras Ferramentas de Raspagem de Dados
+- [ ] 3.4 - Projeto - Tech news
 
-### Section 4: Algoritmos e Estrutura de Dados
+### Section 4: Algoritmos
 - [ ] 4.1 - Complexidade de Algoritmos
 - [ ] 4.2 - Recursividade e Estratégias para solução de problemas
 - [ ] 4.3 - Algoritmos de ordenação e busca
 - [ ] 4.4 - Projeto - Algoritmos
 
-### Section 5: Estrutura de Dados: Hash e Set
-- [ ] 5.1 - Arrays
-- [ ] 5.2 - Hashmap e Dict
-- [ ] 5.3 - Set
-- [ ] 5.4 - Projeto - Restaurant Orders
+### Section 5: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
+- [ ] 5.1 - Arquitetura de Computadores
+- [ ] 5.2 - Arrays
+- [ ] 5.3 - Nó e Listas Encadeadas
+- [ ] 5.4 - Pilhas e Filas
+- [ ] 5.5 - Projeto - TING - Trybe Is Not Google
 
-### Section 6: Estrutura de Dados: Pilhas, Filas e Listas
-- [ ] 6.1 - Nó e Listas Encadeadas
-- [ ] 6.2 - Deque
-- [ ] 6.3 - Pilhas
-- [ ] 6.4 - Projeto - TING - Trybe Is Not Google
+### Section 6: Estrutura de Dados II: Hashmaps e Sets
+- [ ] 6.1 - Hashmap e Dict
+- [ ] 6.2 - Set
+- [ ] 6.4 - Projeto - Restaurant Orders
