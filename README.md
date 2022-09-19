@@ -5,27 +5,23 @@ Contém todas as atividades desenvolvidas por __[Henrique Vilela](https://www.li
 
 ## Módulo 1: Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
-### Section 1: Unix, Bash e Shell Script
-- [x] 1.1 - Fundamentos do Desenvolvimento Web
-- [x] 1.1 - Introdução - Unix & Shell
+### Section 1: Unix & Bash
 - [x] 1.1 - Unix & Bash - Parte 1
 - [x] 1.2 - Unix & Bash - Parte 2
 
-### Section 2: Git, GitHub e Internet
-- [x] 2.1 - Git & GitHub  - O que é e para que serve
+### Section 2: Git & GitHub e Internet
+- [x] 2.1 - Git - O que é e para que serve
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-### Section 3: Introdução à HTML e CSS
-- [x] 3.1 - Introdução - HTML & CSS
+### Section 3: Introdução à HTML & CSS
 - [x] 3.1 - HTML & CSS - Estruturas de página
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 3.3 - HTML & CSS - Seletores e posicionamento
 - [x] 3.4 - HTML Semântico
 - [x] 3.5 - Projeto - Lessons Learned
 
-### Section 4: Introdução à JavaScript e Lógica de Programação
-- [x] 4.1 - Introdução - JavaScript
+### Section 4: Introdução à JavaScript
 - [x] 4.1 - JavaScript - Primeiros passos
 - [x] 4.2 - JavaScript - Array e loop For
 - [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
@@ -47,7 +43,6 @@ Contém todas as atividades desenvolvidas por __[Henrique Vilela](https://www.li
 ### Section 6: HTML e CSS: Forms, Flexbox e Responsivo
 - [x] 6.1 - HTML & CSS - Forms
 - [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
-- [x] 6.3 - Introdução - CSS Flexbox
 - [x] 6.3 - CSS Flexbox - Parte 1
 - [x] 6.4 - CSS Flexbox - Parte 2
 - [x] 6.5 - CSS Responsivo - Mobile First
@@ -55,76 +50,70 @@ Contém todas as atividades desenvolvidas por __[Henrique Vilela](https://www.li
 
 ### Section 7: Introdução à JavaScript ES6 e Testes Unitários
 - [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
-- [x] 7.2 - JavaScript ES6 - Objects
-- [ ] 7.3 - Testes unitários em JavaScript
+- [x] 7.2 - JavaScript ES6 - Fluxo de exceção e Objetos
+- [ ] 7.3 - Primeiros passos em Jest
 - [ ] 7.4 - Projeto - JavaScript Testes Unitários
 
 ### Section 8: Higher Order Functions do JavaScript ES6
-- [ ] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] 8.5 - Projeto - Zoo functions
-
-### Section 9: JavaScript Assíncrono e Promises
-- [ ] 9.1 - JavaScript Assíncrono e Callbacks
-- [ ] 9.2 - JavaScript Promises
-- [ ] 9.3 - Projeto - Carrinho de Compras
-
-### Section 10: Testes automatizados com Jest
-- [ ] 10.1 - Primeiros passos no Jest
-- [ ] 10.2 - Jest - Testes Assíncronos
-- [ ] 10.3 - Jest - Simulando comportamentos
-- [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
+- [ ] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
+- [ ] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [ ] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
+- [ ] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
+- [ ] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [ ] 8.6 - Projeto - Zoo functions
 
 ## Módulo 2: Desenvolvimento Front-end :heavy_check_mark:
 
-### Section 1: Introdução à React
-- [ ] 1.1 - Introdução - Front-end
-- [ ] 1.1 - Introdução - React
-- [ ] 1.1 - 'Hello, world!' no React!
-- [ ] 1.2 - Componentes React
-- [ ] 1.3 - Projeto - Movie Cards Library
+### Section 1: JavaScript e Testes Assíncronos
+- [ ] 1.1 - JavaScript Assíncrono e Callbacks
+- [ ] 1.2 - JavaScript Assíncrono - Fetch API e async/wait
+- [ ] 1.3 - Jest - Testes Assíncrono
+- [ ] 1.4 - Projeto - Carrinho de Compras
 
-### Section 2: Componentes com Estado, Eventos e Formulários com React
-- [ ] 2.1 - Componentes com estado e eventos
-- [ ] 2.2 - Formulários no React
-- [ ] 2.3 - Projeto - Movie Cards Library Stateful
+### Section 2: Introdução ao React
+- [ ] 2.1 - 'Hello, world!' no React!
+- [ ] 2.2 - Componentes React
+- [ ] 2.3 - Projeto - Solar System
 
-### Section 3: Ciclo de Vida de Componentes e React Router
-- [ ] 3.1 - Ciclo de vida de componentes
-- [ ] 3.2 - React Router
-- [ ] 3.3 - Projeto - Movie Cards Library CRUD
+### Section 3: Componentes com Estado, Eventos e Formulários com React
+- [ ] 3.1 - Componentes com estado e eventos
+- [ ] 3.2 - Formulários no React
+- [ ] 3.3 - Projeto - Tryunfo
 
-### Section 4: Metodologias Ágeis
-- [ ] 4.1 - Metodologias Ágeis
-- [ ] 4.2 - Projeto - Frontend Online Store
+### Section 4: Ciclo de Vida de Componentes e React Router
+- [ ] 4.1 - Ciclo de vida de componentes
+- [ ] 4.2 - React Router
+- [ ] 4.3 - Projeto - TrybeTunes
 
-### Section 5: Testes automatizados com React Testing Library
-- [ ] 5.1 - RTL - Primeiros passos
-- [ ] 5.2 - RTL - Mocks e Inputs
-- [ ] 5.3 - RTL - Testando React Router
-- [ ] 5.4 - Projeto - Testes em React
+### Section 5: Metodologias Ágeis
+- [ ] 5.1 - Metodologias Ágeis
+- [ ] 5.2 - Projeto - Frontend Online Store
 
-### Section 6: Gerenciamento de estado com Redux
-- [ ] 6.1 - Introdução ao Redux - O estado global da aplicação
-- [ ] 6.2 - Usando o Redux no React
-- [ ] 6.3 - Usando o Redux no React - Prática
-- [ ] 6.4 - Usando o Redux no React - Actions Assíncronas
-- [ ] 6.5 - Testes síncronos com React-Redux
-- [ ] 6.6 - Projeto - Tabela com filtros de dados
+### Section 6: Testes automatizados com React Testing Library
+- [ ] 6.1 - RTL - Primeiros passos
+- [ ] 6.2 - RTL - Mocks e Inputs
+- [ ] 6.3 - RTL - Testando React Router
+- [ ] 6.4 - Projeto - Testes em React
 
-### Section 7: Projeto Jogo de Trivia
-- [ ] 7.1 - Projeto - Jogo de Trivia
+### Section 7: Gerenciamento de estado com Redux
+- [ ] 7.1 - Introdução ao Redux - O estado global da aplicação
+- [ ] 7.2 - Usando o Redux no React
+- [ ] 7.3 - Usando o Redux no React - Prática
+- [ ] 7.4 - Usando o Redux no React - Actions Assíncronas
+- [ ] 7.5 - Testes síncronos com React-Redux
+- [ ] 7.6 - Projeto - Tabela com filtros de dados
 
-### Section 8: Context API e React Hooks
-- [ ] 8.1 - Context API do React
-- [ ] 8.2 - React Hooks - useState e useContext
-- [ ] 8.3 - React Hooks - useEffect e Hooks customizados
-- [ ] 8.4 - Projeto - StarWars Datatable com Context API e Hooks
+### Section 8: Projeto Jogo de Trivia
+- [ ] 8.1 - Projeto - Jogo de Trivia
 
-### Section 9: Projeto App de Receitas
-- [ ] 9.1 - Projeto - App de Receitas
+### Section 9: Context API e React Hooks
+- [ ] 9.1 - Context API do React
+- [ ] 9.2 - React Hooks - useState e useContext
+- [ ] 9.3 - React Hooks - useEffect e Hooks customizados
+- [ ] 9.4 - Projeto - StarWars Datatable com Context API e Hooks
+
+### Section 10: Projeto App de Receitas
+- [ ] 10.1 - Projeto - App de Receitas
 
 ## Módulo 3: Desenvolvimento Back-end :hourglass_flowing_sand:
 
