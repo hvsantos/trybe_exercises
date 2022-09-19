@@ -101,7 +101,7 @@ Contém todas as atividades desenvolvidas por __[Henrique Vilela](https://www.li
 - [ ] 7.3 - Usando o Redux no React - Prática
 - [ ] 7.4 - Usando o Redux no React - Actions Assíncronas
 - [ ] 7.5 - Testes síncronos com React-Redux
-- [ ] 7.6 - Projeto - Tabela com filtros de dados
+- [ ] 7.6 - Projeto - Trybe Wallet
 
 ### Section 8: Projeto Jogo de Trivia
 - [ ] 8.1 - Projeto - Jogo de Trivia
