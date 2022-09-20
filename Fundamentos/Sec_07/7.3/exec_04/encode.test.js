@@ -3,9 +3,11 @@ const encode = functions.encode
 const decode = functions.decode
 
 describe('Teste da função encode', () => {
-  it('Teste se encode e decode são funções', () => {
-    expect(encode('test')).not.toBeNull()
-    expect(decode('test')).not.toBeNull()
+  it('Teste se encode e decode são funções e se são definidas', () => {
+    expect(encode('test')).toBeDefined()
+    expect(typeof encode).toBe('function')
+    expect(decode('test')).toBeDefined()
+    expect(typeof decode).toBe('function')
   });
   it(`Retorne '1, 2, 3, 4, 5' da função encode() se for inserido 'a, e, i, o, u`, () => {
     expect(encode('a, e, i, o, u')).toBe('1, 2, 3, 4, 5')
