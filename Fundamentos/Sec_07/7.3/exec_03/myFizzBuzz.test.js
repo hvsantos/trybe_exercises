@@ -15,5 +15,5 @@ describe('Teste da função myFizzBuzz()', () => {
   });
   it(`Retorne false se o valor inserido não for um numero`, () => {
     expect(myFizzBuzz('string')).toBe(false)
-  })
-})
+  });
+});

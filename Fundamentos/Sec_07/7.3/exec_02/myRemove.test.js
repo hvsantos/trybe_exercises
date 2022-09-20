@@ -10,4 +10,4 @@ describe('Teste da função myRemove()', () => {
   it('Retorne o array [1,2,3,4] se o primeiro parametro for [1,2,3,4] e o segundo 5', () => {
     expect(myRemove([1, 2, 3, 4], 5)).toEqual([1, 2, 3, 4])
   });
-})
+});

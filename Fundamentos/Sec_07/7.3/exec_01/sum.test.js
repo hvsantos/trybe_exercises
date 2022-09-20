@@ -12,5 +12,5 @@ describe('Teste da função sum()', () => {
   });
   it(`Deve retornar 'parameters must be numbers' se serem inseridos 4 e '5'`, () => {
     expect(() => sum(4,'5')).toThrow(new Error('parameters must be numbers'))
-  })
-})
+  });
+});
