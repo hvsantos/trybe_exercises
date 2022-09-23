@@ -90,3 +90,7 @@ const books = [
 
 // console.log(booksOrderedByReleaseYearDesc())
 
+//5
+// const everyoneWasBornOnSecXX = () => books.every((book) => (book.author.birthYear < 2000 && book.author.birthYear > 1901))
+
+// console.log(everyoneWasBornOnSecXX())
