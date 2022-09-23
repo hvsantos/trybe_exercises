@@ -66,3 +66,17 @@ const books = [
 
 // console.log(authorBornIn1947());
 
+//2
+// const smallerName = () => {
+//   let nameBook;
+//   books.forEach((livro, index) => {
+//     if (index === 0) {nameBook = livro.author.name}
+//     if (livro.author.name.length < nameBook.length) {
+//       nameBook = livro.author.name
+//     }
+//     });
+//   return nameBook;
+// }
+
+// console.log(smallerName())
+
