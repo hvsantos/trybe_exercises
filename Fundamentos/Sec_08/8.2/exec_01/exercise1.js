@@ -99,3 +99,21 @@ const books = [
 // const someBookWasReleaseOnThe80s = () => books.some((book) => (book.releaseYear > 1980) && (book.releaseYear < 1989))
 
 // console.log(someBookWasReleaseOnThe80s())
+
+//7
+// const compareAuthors = (year1, year2) => year1 === year2;
+
+// const authorUnique =() => {
+//   let result;
+//   books.forEach((book) => {
+//     books.forEach((livro) => {
+//       if (book.name !== livro.name && book.author.birthYear === livro.author.birthYear) {
+//         result = false;
+//       }
+//     })
+//   })
+//   return result
+// }
+
+// console.log(authorUnique())
+
