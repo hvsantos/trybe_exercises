@@ -80,3 +80,7 @@ const books = [
 
 // console.log(smallerName())
 
+//3
+// const getNamedBook = () => books.find((book) => book.name.length === 26).name
+
+// console.log(getNamedBook())
