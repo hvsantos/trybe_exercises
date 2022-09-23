@@ -62,58 +62,58 @@ const books = [
 ];
 
 //1
-// const authorBornIn1947 = () => books.find((livro) => livro.author.birthYear === 1947).author.name;
+const authorBornIn1947 = () => books.find((livro) => livro.author.birthYear === 1947).author.name;
 
-// console.log(authorBornIn1947());
+console.log(authorBornIn1947());
 
 //2
-// const smallerName = () => {
-//   let nameBook;
-//   books.forEach((livro, index) => {
-//     if (index === 0) {nameBook = livro.author.name}
-//     if (livro.author.name.length < nameBook.length) {
-//       nameBook = livro.author.name
-//     }
-//     });
-//   return nameBook;
-// }
+const smallerName = () => {
+  let nameBook;
+  books.forEach((livro, index) => {
+    if (index === 0) {nameBook = livro.author.name}
+    if (livro.author.name.length < nameBook.length) {
+      nameBook = livro.author.name
+    }
+    });
+  return nameBook;
+}
 
-// console.log(smallerName())
+console.log(smallerName())
 
 //3
-// const getNamedBook = () => books.find((book) => book.name.length === 26).name
+const getNamedBook = () => books.find((book) => book.name.length === 26).name
 
-// console.log(getNamedBook())
+console.log(getNamedBook())
 
 //4
-// const booksOrderedByReleaseYearDesc = () => books.sort((bookA, bookB) => bookB.releaseYear - bookA.releaseYear)
+const booksOrderedByReleaseYearDesc = () => books.sort((bookA, bookB) => bookB.releaseYear - bookA.releaseYear)
 
-// console.log(booksOrderedByReleaseYearDesc())
+console.log(booksOrderedByReleaseYearDesc())
 
 //5
-// const everyoneWasBornOnSecXX = () => books.every((book) => (book.author.birthYear < 2000 && book.author.birthYear > 1901))
+const everyoneWasBornOnSecXX = () => books.every((book) => (book.author.birthYear < 2000 && book.author.birthYear > 1901))
 
-// console.log(everyoneWasBornOnSecXX())
+console.log(everyoneWasBornOnSecXX())
 
 //6
-// const someBookWasReleaseOnThe80s = () => books.some((book) => (book.releaseYear > 1980) && (book.releaseYear < 1989))
+const someBookWasReleaseOnThe80s = () => books.some((book) => (book.releaseYear > 1980) && (book.releaseYear < 1989))
 
-// console.log(someBookWasReleaseOnThe80s())
+console.log(someBookWasReleaseOnThe80s())
 
 //7
-// const compareAuthors = (year1, year2) => year1 === year2;
+const compareAuthors = (year1, year2) => year1 === year2;
 
-// const authorUnique =() => {
-//   let result;
-//   books.forEach((book) => {
-//     books.forEach((livro) => {
-//       if (book.name !== livro.name && book.author.birthYear === livro.author.birthYear) {
-//         result = false;
-//       }
-//     })
-//   })
-//   return result
-// }
+const authorUnique =() => {
+  let result;
+  books.forEach((book) => {
+    books.forEach((livro) => {
+      if (book.name !== livro.name && book.author.birthYear === livro.author.birthYear) {
+        result = false;
+      }
+    })
+  })
+  return result
+}
 
-// console.log(authorUnique())
+console.log(authorUnique())
 
