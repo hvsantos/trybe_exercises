@@ -94,3 +94,8 @@ const books = [
 // const everyoneWasBornOnSecXX = () => books.every((book) => (book.author.birthYear < 2000 && book.author.birthYear > 1901))
 
 // console.log(everyoneWasBornOnSecXX())
+
+//6
+// const someBookWasReleaseOnThe80s = () => books.some((book) => (book.releaseYear > 1980) && (book.releaseYear < 1989))
+
+// console.log(someBookWasReleaseOnThe80s())
