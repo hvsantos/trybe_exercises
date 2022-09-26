@@ -89,8 +89,19 @@ const books = [
 // console.log(oldBooksOrdered)
 
 // 5
-const fictionOrFantasy = ({genre}) => (genre === 'Fantasia' || genre === 'Ficção Científica');
-const allFantasyAndFiction = (array) => array.filter((book) => fictionOrFantasy(book));
-const authorList = allFantasyAndFiction(books).map((book) => book.author.name).sort();
+// const fictionOrFantasy = ({genre}) => (genre === 'Fantasia' || genre === 'Ficção Científica');
+// const allFantasyAndFiction = (array) => array.filter((book) => fictionOrFantasy(book));
+// const authorList = allFantasyAndFiction(books).map((book) => book.author.name).sort();
 
-console.log(authorList);
+// console.log(authorList);
+
+// 6
+// const filterByAuthors = (book) => {
+//   const arrName = book.author.name.split(' ')
+//   const processedArrName = arrName.filter((element, index) => (element.length === 2 && index <= 3))
+//   if (processedArrName.length >= 3) { return book}
+// }
+
+// const filteredBooks = books.map((book) => filterByAuthors(book)).filter((element) => element !== undefined);
+
+// console.log(filteredBooks);
