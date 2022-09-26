@@ -62,10 +62,16 @@ const books = [
 ];
 
 // 1:
-const formatedBookNames = (array) => array.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
+// const formatedBookNames = (array) => array.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
 
-const sinopBook = formatedBookNames(books);
+// const sinopBook = formatedBookNames(books);
 
-console.log(sinopBook)
+// console.log(sinopBook)
 
-// 2
+// 2:
+const authorAndAge = (array) => array.map((book) => ({
+  age: book.releaseYear - book.author.birthYear,
+  author: book.author.name
+}));
+const sortedAAA = authorAndAge(books).sort((a, b) => a.age - b.age)
+console.log(sortedAAA)
