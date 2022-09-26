@@ -77,7 +77,12 @@ const books = [
 // console.log(sortedAAA)
 
 // 3
-const acceptedGenre = (genre) => (genre === 'Fantasia' || genre === 'Fantasia' || genre === 'Ficção Científica');
-const fantasyOrScienceFiction = (array) => array.filter(({ genre }) => acceptedGenre(genre))
+// const acceptedGenre = (genre) => (genre === 'Fantasia' || genre === 'Fantasia' || genre === 'Ficção Científica');
+// const fantasyOrScienceFiction = (array) => array.filter(({ genre }) => acceptedGenre(genre))
 
-console.log( fantasyOrScienceFiction(books))
+// console.log( fantasyOrScienceFiction(books))
+
+// 4
+const olderBooks = ({releaseYear}) => (2022 - releaseYear)  > 60;
+const oldBooksOrdered = books.filter((book) => olderBooks(book)).sort((a, b) => a.releaseYear - b.releaseYear);
+console.log(oldBooksOrdered)
