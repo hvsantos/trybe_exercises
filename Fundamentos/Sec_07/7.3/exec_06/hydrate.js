@@ -8,9 +8,8 @@ function hydrate(drinks) {
       sum += num;
     }
   }
-  (sum === 1) ? result = sum + ' copo de água' : result = sum + ' copos de água';
+  (sum <= 1) ? result = sum + ' copo de água' : result = sum + ' copos de água';
   return result
 }
-
 
 module.exports = hydrate
