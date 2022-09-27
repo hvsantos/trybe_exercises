@@ -61,39 +61,39 @@ const books = [
   },
 ];
 
-// 1:
-const formatedBookNames = (array) => array.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
+// // 1:
+// const formatedBookNames = (array) => array.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
 
-const sinopBook = formatedBookNames(books);
+// const sinopBook = formatedBookNames(books);
 
-console.log(sinopBook)
+// console.log(sinopBook)
 
-// 2:
-const authorAndAge = (array) => array.map((book) => ({
-  age: book.releaseYear - book.author.birthYear,
-  author: book.author.name
-}));
-const sortedAAA = authorAndAge(books).sort((a, b) => a.age - b.age)
-console.log(sortedAAA)
+// // 2:
+// const authorAndAge = (array) => array.map((book) => ({
+//   age: book.releaseYear - book.author.birthYear,
+//   author: book.author.name
+// }));
+// const sortedAAA = authorAndAge(books).sort((a, b) => a.age - b.age)
+// console.log(sortedAAA)
 
-// 3
-const acceptedGenre = ({genre}) => (genre === 'Fantasia' || genre === 'Ficção Científica');
-const fantasyOrScienceFiction = (array) => array.filter((book) => acceptedGenre(book))
+// // 3
+// const acceptedGenre = ({genre}) => (genre === 'Fantasia' || genre === 'Ficção Científica');
+// const fantasyOrScienceFiction = (array) => array.filter((book) => acceptedGenre(book))
 
-console.log(fantasyOrScienceFiction(books))
+// console.log(fantasyOrScienceFiction(books))
 
-// 4
-const olderBooks = ({releaseYear}) => (2022 - releaseYear)  > 60;
-const oldBooksOrdered = books.filter((book) => olderBooks(book)).sort((a, b) => a.releaseYear - b.releaseYear);
+// // 4
+// const olderBooks = ({releaseYear}) => (2022 - releaseYear)  > 60;
+// const oldBooksOrdered = books.filter((book) => olderBooks(book)).sort((a, b) => a.releaseYear - b.releaseYear);
 
-console.log(oldBooksOrdered)
+// console.log(oldBooksOrdered)
 
-// 5
-const fictionOrFantasy = ({genre}) => (genre === 'Fantasia' || genre === 'Ficção Científica');
-const allFantasyAndFiction = (array) => array.filter((book) => fictionOrFantasy(book));
-const authorList = allFantasyAndFiction(books).map((book) => book.author.name).sort();
+// // 5
+// const fictionOrFantasy = ({genre}) => (genre === 'Fantasia' || genre === 'Ficção Científica');
+// const allFantasyAndFiction = (array) => array.filter((book) => fictionOrFantasy(book));
+// const authorList = allFantasyAndFiction(books).map((book) => book.author.name).sort();
 
-console.log(authorList);
+// console.log(authorList);
 
 // 6
 const filterByAuthors = (book) => {
@@ -102,6 +102,6 @@ const filterByAuthors = (book) => {
   if (processedArrName.length >= 3) { return book}
 }
 
-const filteredBooks = books.map((book) => filterByAuthors(book)).filter((element) => element !== undefined);
+const filteredBooks = books.map((book) => filterByAuthors(book)).filter((element) => element !== undefined)[0].name;
 
 console.log(filteredBooks);
