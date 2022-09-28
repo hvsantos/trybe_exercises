@@ -4,9 +4,6 @@ const names = [
   'Abeladerco', 'Adieidy', 'Alarucha',
 ];
 
-const containsA = (array) => array.reduce((a,b) => {
-  b = b.split('').filter((charac) => (charac === 'a' || charac === 'A'));
-  return a+b.length
-}, 0)
+const containsA = (array) => array.reduce((a,b) => a + b.split('').filter((charac) => ['a', 'A'].includes(charac)).length, 0)
 
-console.log(containsA(names))
+console.log(containsA(names));
